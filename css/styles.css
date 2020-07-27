@@ -137,6 +137,18 @@ body {
   color: #ffffff;
 }
 
+.navigation-list-link::after {
+  width: 47px;
+  height: 4px;
+  background-color: #2196f3;
+  content: '';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+  width: 100%;
+}
+
 /* HERO Section */
 /* изменил цвет заголовка чтобы он был пока что виден на белом фоне */
 
