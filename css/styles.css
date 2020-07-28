@@ -1,6 +1,6 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   --title-dark-theme-color: #ffffff;
   --title-light-theme-color: #212121;
   --accent-color: #2196f3;
@@ -15,14 +15,24 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: #ffffff;
   font-family: var(--main-font);
-  font-size: 16px;
-  color: #757575;
+  font-size: 18px;
+  color: var(--text-light-theme-color);
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  display: block;
 }
 
 .link {
@@ -141,7 +151,7 @@ body {
   width: 47px;
   height: 4px;
   background-color: #2196f3;
-  content: "";
+  content: '';
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -168,6 +178,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 1600px;
 }
 
 .hero-title {
@@ -369,12 +380,14 @@ h3 {
   margin-right: 10px;
 }
 
-.social-media-link-item-svg {
+.social-list-item-link-svg {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
 }
 
+.social-list-item-link:hover .social-list-item-link-svg {
+  fill: #2196f3;
+}
 /* OUR CLIENTS */
 
 .clients-title {
