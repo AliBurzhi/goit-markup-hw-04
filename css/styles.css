@@ -178,7 +178,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 1600px;
 }
 
 .hero-title {
@@ -385,8 +384,11 @@ h3 {
   height: 20px;
 }
 
+.social-list-item-link:hover {
+  background-color: #2196f3;
+}
 .social-list-item-link:hover .social-list-item-link-svg {
-  fill: #2196f3;
+  fill: #ffffff;
 }
 /* OUR CLIENTS */
 
