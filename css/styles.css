@@ -1,6 +1,6 @@
 :root {
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --title-dark-theme-color: #ffffff;
   --title-light-theme-color: #212121;
   --accent-color: #2196f3;
@@ -141,7 +141,7 @@ body {
   width: 47px;
   height: 4px;
   background-color: #2196f3;
-  content: '';
+  content: "";
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -372,6 +372,7 @@ h3 {
 .social-media-link-item-svg {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
 }
 
 /* OUR CLIENTS */
