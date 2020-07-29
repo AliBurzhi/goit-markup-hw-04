@@ -576,27 +576,6 @@ h3 {
 .desctext {
   margin-bottom: 20px;
 }
-/*
-.clients-link-list:hover {
-  background-color: #2196f3;
-}
-
-.footer-link-list:hover {
-  border-color: #2196f3;
-}
-.footer-link-list:hover .footer-list-item-link-svg {
-  fill: #ffffff;
-}
-
-.footer-link-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
-*/
 
 .footer-link-list {
   display: flex;
