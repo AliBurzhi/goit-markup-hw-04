@@ -446,7 +446,34 @@ h3 {
 .clients-list-item-link-svg {
   fill: #afb1b8;
 }
+.clients-list-item:nth-child(1) .clients-list-item-link-svg {
+  width: 45px;
+  height: 50px;
+}
+.clients-list-item:nth-child(2) .clients-list-item-link-svg {
+  width: 40px;
+  height: 52px;
+}
+.clients-list-item:nth-child(3) .clients-list-item-link-svg {
+  width: 41px;
+  height: 43px;
+}
+.clients-list-item:nth-child(4) .clients-list-item-link-svg {
+  width: 80px;
+  height: 43px;
+}
+.clients-list-item:nth-child(5) .clients-list-item-link-svg {
+  width: 59px;
+  height: 47px;
+}
+.clients-list-item:nth-child(6) .clients-list-item-link-svg {
+  width: 89px;
+  height: 46px;
+}
 
+.clients-link-list:hover {
+  border-color: #2196f3;
+}
 .clients-link-list:hover .clients-list-item-link-svg {
   fill: #2196f3;
 }
