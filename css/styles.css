@@ -107,7 +107,6 @@ img {
   padding-top: 32px;
 }
 
-
 .header-tel-link {
   font-family: Roboto;
   font-style: normal;
@@ -160,14 +159,24 @@ img {
   display: flex;
 }
 
-.header-mail-svg {
+.header-svg {
   width: 16px;
   height: 11px;
   margin-right: 10px;
-  color #212121;
+  color: #757575;
 }
 
+.header-tel-svg {
+  width: 16px;
+  height: 11px;
+  margin-right: 10px;
+  color: #757575;
+}
 
+.header-address-link:hover .header-svg {
+  color: #757575;
+  fill: #2196f3;
+}
 
 /* HERO Section */
 
