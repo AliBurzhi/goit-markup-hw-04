@@ -392,6 +392,7 @@ h3 {
   height: 44px;
   border-radius: 50%;
 }
+
 .social-list-item-link:hover {
   background-color: #2196f3;
 }
@@ -426,20 +427,29 @@ h3 {
 
 .clients-link-list {
   display: flex;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
   justify-content: center;
   align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
 }
 
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
-/* FOOTER */
+.clients-link-list:hover {
+  background-color: #ffffff;
+}
+
+.clients-list-item-link-svg {
+  fill: #afb1b8;
+}
+
+.clients-link-list:hover .clients-list-item-link-svg {
+  fill: #2196f3;
+}
 
 /* FOOTER */
 
