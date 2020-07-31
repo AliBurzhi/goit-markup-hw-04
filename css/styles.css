@@ -62,6 +62,10 @@ img {
   justify-content: space-between;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -141,6 +145,9 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  border: none;
+  width: 200px;
+  height: 50px;
 }
 
 .navigation-list-link::after {
@@ -248,7 +255,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-.about-us-section .about-us-img-back {
+.about-us-img-back {
   margin-bottom: 30px;
   background-color: #f5f4fa;
   padding-top: 25px;
@@ -256,6 +263,26 @@ h1 {
   padding-bottom: 25px;
   padding-left: 100px;
   border-radius: 4px;
+}
+
+.about-us-list:nth-child(1) .aboutus-svg-back {
+  width: 70px;
+  height: 70px;
+}
+
+.about-us-list:nth-child(2) .aboutus-svg-back {
+  width: 70px;
+  height: 70px;
+}
+
+.about-us-list:nth-child(3) .aboutus-svg-back {
+  width: 70px;
+  height: 70px;
+}
+
+.about-us-list:nth-child(4) .aboutus-svg-back {
+  width: 70px;
+  height: 70px;
 }
 
 .description {
@@ -379,16 +406,12 @@ h3 {
   display: flex;
   justify-content: center;
   margin-bottom: 24px;
-  max-width: 206px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 16px;
+  padding-right: auto;
+  padding-left: auto;
+  padding-top: 16px;
 }
 
 .social-list-item {
-  max-width: 206px;
-  margin-right: auto;
-  margin-left: auto;
   margin-top: 16px;
   margin-bottom: 24px;
 }
